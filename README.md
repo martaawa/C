@@ -115,6 +115,23 @@ Os testes confirmaram que o programa reconhece tokens válidos, identifica erros
 - `DFA__Estufa.drawio.png` — Imagem do DFA.
 - `src/greenscript.l` — Implementação do analisador lexical em FLEX.
 
+
+### Testes
+
+Foram preparados nove ficheiros.
+
+| Ficheiro | O que verifica | Totais esperados (tokens/erros) |
+|---|---|---:|
+| `01_comandos_simples.txt` | Comandos simples, comentário, identificador válido e delimitadores. | 33/0 |
+| `02_espera_repeticao_condicao.txt` | `ESPERAR` e `REPETIR` com condição `SE`/`SENAO`. | 37/0 |
+| `03_operadores_relacionais.txt` | Os seis operadores relacionais, sem espaços junto aos números. | 68/0 |
+| `04_tokens_sem_sintaxe.txt` | Tokens válidos em comandos incompletos, incluindo `LIGAR()`. | 13/0 |
+| `05_erros_lexicais_identificadores.txt` | Caracteres malformados, `@` e continuação da análise após erros. | 2/6 |
+| `06_erros_lexicais_operadores.txt` | `=` e `!` isolados, `+`, `*` e operadores compostos. | 3/7 |
+| `07_apenas_comentarios_e_separadores.txt` | Comentários, espaços, tabulações e linhas vazias. | 0/0 |
+| `08_vazio.txt` | Ficheiro vazio e fim imediato da entrada. | 0/0 |
+| `09_linhas_lf_crlf.txt` | Contagem de linhas com LF e CRLF. | 13/0 |
+
 ## Estado do projeto
 
 - Expressões regulares — Concluídas.
