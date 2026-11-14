@@ -1,0 +1,9 @@
+Erro lexical na linha 1: LIGARX
+Erro lexical na linha 1: EST-AA001
+Erro lexical na linha 2: EST-A101
+Erro lexical na linha 2: 012
+Erro lexical na linha 2: 12abc
+Erro lexical na linha 2: @
+2 PONTO_VIRG     ;
+2 LIGAR          LIGAR
+Tokens: 2 | Erros lexicais: 6

@@ -1,0 +1,14 @@
+1 LIGAR          LIGAR
+1 ABRE_PAR       (
+1 FECHA_PAR      )
+1 PONTO_VIRG     ;
+3 ESPERAR        ESPERAR
+3 ABRE_PAR       (
+3 INTEIRO        5
+3 FECHA_PAR      )
+3 PONTO_VIRG     ;
+4 ABRIR          ABRIR
+4 ABRE_PAR       (
+4 FECHA_PAR      )
+4 PONTO_VIRG     ;
+Tokens: 13 | Erros lexicais: 0

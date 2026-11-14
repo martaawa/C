@@ -1,0 +1,11 @@
+Erro lexical na linha 1: =
+Erro lexical na linha 1: !
+1 MENOR_IGUAL    <=
+Erro lexical na linha 1: =
+Erro lexical na linha 1: =
+1 MAIOR          >
+1 DIFERENTE      !=
+Erro lexical na linha 1: =
+Erro lexical na linha 1: +
+Erro lexical na linha 1: *
+Tokens: 3 | Erros lexicais: 7
