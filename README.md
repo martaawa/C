@@ -89,16 +89,18 @@ Entrada:
 
 Resultado:
 
-`Erro lexical na linha 1: LIGARX`
-`Erro lexical na linha 2: EST-AA001`
-`4 REGAR          REGAR`
-`4 ABRE_PAR       (`
-`4 INTEIRO        2`
-`4 VIRGULA        ,`
-`4 INTEIRO        15`
-`4 FECHA_PAR      )`
-`4 PONTO_VIRG     ;`
-`Tokens: 7 | Erros lexicais: 2`
+```text
+Erro lexical na linha 1: LIGARX
+Erro lexical na linha 2: EST-AA001
+4 REGAR          REGAR
+4 ABRE_PAR       (
+4 INTEIRO       2
+4 VIRGULA        ,
+4 INTEIRO       15
+4 FECHA_PAR      )
+4 PONTO_VIRG     ;
+Tokens: 7 | Erros lexicais: 2
+```
 
 Os testes confirmaram que o programa reconhece tokens válidos, identifica erros lexicais, ignora comentários e continua a análise após encontrar erros.
 
