@@ -46,18 +46,19 @@ Para compilar e executar o analisador lexical no Ubuntu ou WSL, é necessário t
 
 ### Instalação
 
-sudo apt update
-sudo apt install flex gcc libfl-dev
+`sudo apt update
+sudo apt install flex gcc libfl-dev`
 
 ### Compilação
 
 Na pasta principal do projeto:
-flex -o lex.yy.c src/greenscript.l
-gcc -Wall -Wextra lex.yy.c -o greenscript -lfl
+
+`flex -o lex.yy.c src/greenscript.l
+gcc -Wall -Wextra lex.yy.c -o greenscript -lfl`
 
 ### Execução
 
-./greenscript caminho/do/ficheiro.txt
+`./greenscript caminho/do/ficheiro.txt`
 
 O programa recebe o caminho do ficheiro a analisar como argumento.
 
@@ -67,28 +68,28 @@ Foram realizados dois testes iniciais para verificar o funcionamento do analisad
 
 Entrada:
 
-LIGAR(EST-AA01);
+`LIGAR(EST-AA01);`
 
 Resultado:
 
-1 LIGAR          LIGAR
+`1 LIGAR          LIGAR
 1 ABRE_PAR       (
 1 ID_ESTUFA      EST-AA01
 1 FECHA_PAR      )
 1 PONTO_VIRG     ;
-Tokens: 5 | Erros lexicais: 0
+Tokens: 5 | Erros lexicais: 0`
 
 ### Teste 2 — Erros lexicais e continuação da análise
 
 Entrada:
 
-LIGARX
+`LIGARX
 EST-AA001
-REGAR(2,15);
+REGAR(2,15);`
 
 Resultado:
 
-Erro lexical na linha 1: LIGARX
+`Erro lexical na linha 1: LIGARX
 Erro lexical na linha 2: EST-AA001
 4 REGAR          REGAR
 4 ABRE_PAR       (
@@ -97,7 +98,7 @@ Erro lexical na linha 2: EST-AA001
 4 INTEIRO        15
 4 FECHA_PAR      )
 4 PONTO_VIRG     ;
-Tokens: 7 | Erros lexicais: 2
+Tokens: 7 | Erros lexicais: 2`
 
 Os testes confirmaram que o programa reconhece tokens válidos, identifica erros lexicais, ignora comentários e continua a análise após encontrar erros.
 
