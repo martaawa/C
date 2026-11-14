@@ -1,0 +1,4 @@
+LIGARX
+EST-AA001
+# comentario
+REGAR(2,15);
