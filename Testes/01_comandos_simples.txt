@@ -1,0 +1,8 @@
+# Preparação da estufa
+LIGAR(EST-AA01);
+ABRIR();
+FECHAR();
+REGAR(2,15);
+DESLIGAR();
+PARAR();
+AQUECER(24);
