@@ -1,4 +1,4 @@
-# GreenScript — TP1 de Compiladores
+# GreenScript - TP1 de Compiladores
 
 Trabalho prático de Compiladores sobre a análise lexical da linguagem GreenScript.
 
