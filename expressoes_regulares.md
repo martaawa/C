@@ -44,3 +44,19 @@ EST-[A-Z][A-Z][0-9][0-9]
 ### Candidatos lexicais
 
 [A-Za-z0-9_-]+
+
+### Exemplos validos e invalidos
+
+**Validos:**
+- LIGAR
+- EST-AA01
+- 123
+- <=
+- (
+
+**Invalidos:**
+- LIGARX
+- EST-A101
+- 012
+- =
+- @
