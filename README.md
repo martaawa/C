@@ -29,8 +29,8 @@ O autómato inclui um estado inicial, um estado final e um estado de erro para s
 ## Ficheiros
 
 - `expressoes_regulares.md` — Expressões regulares utilizadas na análise lexical.
-- `DFA_Identificadores_Estufa.drawio` — Diagrama editável do DFA.
-- `DFA_Identificadores_Estufa.drawio.png` — Imagem do DFA.
+- `DFA_Estufa.drawio` — Diagrama editável do DFA.
+- `DFA__Estufa.drawio.png` — Imagem do DFA.
 
 ## Estado do projeto
 
