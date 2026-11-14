@@ -72,20 +72,24 @@ Entrada:
 
 Resultado:
 
-`1 LIGAR          LIGAR`
-`1 ABRE_PAR       (`
-`1 ID_ESTUFA      EST-AA01`
-`1 FECHA_PAR      )`
-`1 PONTO_VIRG     ;`
-`Tokens: 5 | Erros lexicais: 0`
+```text
+1 LIGAR          LIGAR
+1 ABRE_PAR       (
+1 ID_ESTUFA      EST-AA01
+1 FECHA_PAR      )
+1 PONTO_VIRG     ;
+Tokens: 5 | Erros lexicais: 0
+```
 
 ### Teste 2 — Erros lexicais e continuação da análise
 
 Entrada:
 
-`LIGARX`
-`EST-AA001`
-`REGAR(2,15);`
+```text
+LIGARX
+EST-AA001
+REGAR(2,15);
+```
 
 Resultado:
 
