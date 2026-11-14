@@ -72,33 +72,33 @@ Entrada:
 
 Resultado:
 
-`1 LIGAR          LIGAR
-1 ABRE_PAR       (
-1 ID_ESTUFA      EST-AA01
-1 FECHA_PAR      )
-1 PONTO_VIRG     ;
-Tokens: 5 | Erros lexicais: 0`
+`1 LIGAR          LIGAR`
+`1 ABRE_PAR       (`
+`1 ID_ESTUFA      EST-AA01`
+`1 FECHA_PAR      )`
+`1 PONTO_VIRG     ;`
+`Tokens: 5 | Erros lexicais: 0`
 
 ### Teste 2 — Erros lexicais e continuação da análise
 
 Entrada:
 
-`LIGARX
-EST-AA001
-REGAR(2,15);`
+`LIGARX`
+`EST-AA001`
+`REGAR(2,15);`
 
 Resultado:
 
-`Erro lexical na linha 1: LIGARX
-Erro lexical na linha 2: EST-AA001
-4 REGAR          REGAR
-4 ABRE_PAR       (
-4 INTEIRO        2
-4 VIRGULA        ,
-4 INTEIRO        15
-4 FECHA_PAR      )
-4 PONTO_VIRG     ;
-Tokens: 7 | Erros lexicais: 2`
+`Erro lexical na linha 1: LIGARX`
+`Erro lexical na linha 2: EST-AA001`
+`4 REGAR          REGAR`
+`4 ABRE_PAR       (`
+`4 INTEIRO        2`
+`4 VIRGULA        ,`
+`4 INTEIRO        15`
+`4 FECHA_PAR      )`
+`4 PONTO_VIRG     ;`
+`Tokens: 7 | Erros lexicais: 2`
 
 Os testes confirmaram que o programa reconhece tokens válidos, identifica erros lexicais, ignora comentários e continua a análise após encontrar erros.
 
