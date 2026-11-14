@@ -24,7 +24,7 @@ O autómato inclui um estado inicial, um estado final e um estado de erro para s
 
 ### DFA Construído
 
-<img width="539" height="491" alt="DFA_Identificadores_Estufa drawio" src="https://github.com/user-attachments/assets/2e41cc3b-de55-4208-a7fb-2664a43fb476" />
+<img width="539" height="491" alt="DFA_estufa drawio" src="https://github.com/user-attachments/assets/ea051ebd-e94f-489e-be31-d8b33c2772d6" />
 
 ## Ficheiros
 
