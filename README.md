@@ -2,7 +2,7 @@
 
 Trabalho prático de Compiladores sobre a análise lexical da linguagem GreenScript.
 
-## Trabalho realizado
+## Trabalho realizado 
 
 ### 1. Expressões regulares
 Foram definidas expressões regulares para reconhecer os elementos da linguagem GreenScript:
@@ -111,8 +111,8 @@ Os testes confirmaram que o programa reconhece tokens válidos, identifica erros
 ## Ficheiros
 
 - `expressoes_regulares.md` — Expressões regulares utilizadas na análise lexical.
-- `DFA_Estufa.drawio` — Diagrama editável do DFA.
-- `DFA__Estufa.drawio.png` — Imagem do DFA.
+- `DFA_estufa.drawio` — Diagrama editável do DFA.
+- `DFA__estufa.drawio.png` — Imagem do DFA.
 - `src/greenscript.l` — Implementação do analisador lexical em FLEX.
 
 
@@ -131,15 +131,3 @@ Foram preparados nove ficheiros.
 | `07_apenas_comentarios_e_separadores.txt` | Comentários, espaços, tabulações e linhas vazias. | 0/0 |
 | `08_vazio.txt` | Ficheiro vazio e fim imediato da entrada. | 0/0 |
 | `09_linhas_lf_crlf.txt` | Contagem de linhas com LF e CRLF. | 13/0 |
-
-## Estado do projeto
-
-- Expressões regulares — Concluídas.
-
-- DFA dos identificadores de estufa — Concluído.
-
-- Implementação do analisador lexical em FLEX — Concluída.
-
-- Testes iniciais de funcionamento — Realizados com sucesso.
-
-- Restantes testes e relatório final — Por concluir.
