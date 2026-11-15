@@ -1,3 +1,0 @@
-LIGAR();
-# comentário
-ESPERAR(5);ABRIR();
